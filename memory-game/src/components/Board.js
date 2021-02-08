@@ -1,5 +1,5 @@
 import * as R from "rambda"
-import React from "react"
+import React, { useEffect } from "react"
 import * as L from "../lib"
 import * as Cell from "./Cell"
 
@@ -40,8 +40,13 @@ export let areOpensDifferent = (board) => {
 }
 
 export function BoardView({board, onClickAt}) {
+  useEffect(() => {
+    board.sort(() => Math.random() - 0.5)
+  }, []);
+
   return <div className="board">
-    {board.map((cell, i) =>
+    {board
+      .map((cell, i) =>
       <Cell.View key={i} cell={cell} onClick={_ => onClickAt(i)}/>
     )}
   </div>

@@ -1,5 +1,8 @@
 body {
   overflow: hidden;
+  background: url(../img/inner2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #root {
@@ -11,21 +14,30 @@ body {
 }
 
 .cell {
-  font-size: 4rem;
   background: gray;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100px;
+  height: 250px;
+  width: 250px;
+  box-shadow: 2px 2px 3px white;
+  border-radius: 5px;
 }
+
+/* @media(max-width: 1022px) {
+  .cell {
+    height: 200px;
+    width: 200px;
+  }
+} */
 
 .cell.closed {
   cursor: pointer;
   background: darkgray;
 }
 
-.cell.open {
-  background: #dcdcdc;
+.timer {
+  color: white;
 }
 
 .cell.done {
@@ -38,32 +50,49 @@ body {
 
 .board {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  width: 640px;
-  height: 480px;
-  gap: 2px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  /* width: 750;
+  height: 750; */
+  gap: 5px;
 }
 
 .screen {
   display: flex;
-  width: 640px;
-  height: 480px;
-  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  /* align-items: center; */
   justify-content: center;
   cursor: pointer;
+
 }
 
 .screen.green {
-  background: #a8db8f;
+  background: url(../img/winner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
 }
 
 .screen.gray {
-  background: #dcdcdc;
+  background-image: url(../img/start-game.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .screen.red {
-  background: #db8f8f;
+  background: url(../img/Game-over.png);
+  position: relative;
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  position: relative;
+  bottom: 30px;
+  color: gray;
 }
 
 .screen h1 {
