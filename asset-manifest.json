@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Memory-Game/static/css/main.3fe41bd8.chunk.css",
+    "main.js": "/Memory-Game/static/js/main.09b72817.chunk.js",
+    "main.js.map": "/Memory-Game/static/js/main.09b72817.chunk.js.map",
+    "runtime-main.js": "/Memory-Game/static/js/runtime-main.a02df7f2.js",
+    "runtime-main.js.map": "/Memory-Game/static/js/runtime-main.a02df7f2.js.map",
+    "static/js/2.282366d8.chunk.js": "/Memory-Game/static/js/2.282366d8.chunk.js",
+    "static/js/2.282366d8.chunk.js.map": "/Memory-Game/static/js/2.282366d8.chunk.js.map",
+    "static/js/3.40797065.chunk.js": "/Memory-Game/static/js/3.40797065.chunk.js",
+    "static/js/3.40797065.chunk.js.map": "/Memory-Game/static/js/3.40797065.chunk.js.map",
+    "index.html": "/Memory-Game/index.html",
+    "static/css/main.3fe41bd8.chunk.css.map": "/Memory-Game/static/css/main.3fe41bd8.chunk.css.map",
+    "static/js/2.282366d8.chunk.js.LICENSE.txt": "/Memory-Game/static/js/2.282366d8.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Memory-Game/static/media/winner.c53aca8e.jpg",
+    "static/media/Rick-and-Morty-Doaly.0716bb12.jpg": "/Memory-Game/static/media/Rick-and-Morty-Doaly.0716bb12.jpg",
+    "static/media/bad.5ba423ac.jpg": "/Memory-Game/static/media/bad.5ba423ac.jpg",
+    "static/media/beth.29a4c2a2.jpg": "/Memory-Game/static/media/beth.29a4c2a2.jpg",
+    "static/media/green.e05003c6.jpg": "/Memory-Game/static/media/green.e05003c6.jpg",
+    "static/media/morty.26c22d26.jpg": "/Memory-Game/static/media/morty.26c22d26.jpg",
+    "static/media/rick-and-morty.c57b1dc2.jpg": "/Memory-Game/static/media/rick-and-morty.c57b1dc2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a02df7f2.js",
+    "static/js/2.282366d8.chunk.js",
+    "static/css/main.3fe41bd8.chunk.css",
+    "static/js/main.09b72817.chunk.js"
+  ]
+}
