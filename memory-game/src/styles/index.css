@@ -24,12 +24,76 @@ body {
   border-radius: 5px;
 }
 
-/* @media(max-width: 1022px) {
+.img {
+  /* background-size: cover; */
+  height: 250px;
+  width: 250px;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px white;
+  object-fit: cover;
+}
+
+@media(max-width: 1022px) {
   .cell {
     height: 200px;
     width: 200px;
   }
-} */
+
+  .img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media(max-width: 825px) {
+  .cell {
+    height: 150px;
+    width: 150px;
+  }
+
+  .img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media(max-width: 625px) {
+  .cell {
+    height: 120px;
+    width: 120px;
+  }
+
+  .img {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+@media(max-width: 510px) {
+  .cell {
+    height: 100px;
+    width: 100px;
+  }
+
+  .img {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media(max-width: 427px) {
+  .cell {
+    height: 90px;
+    width: 90px;
+  }
+
+  .img {
+    height: 90px;
+    width: 90px;
+  }
+}
+
 
 .cell.closed {
   cursor: pointer;
@@ -81,12 +145,28 @@ body {
   background-size: 100% 100%;
 }
 
+@media(max-width: 900px) {
+  .screen.gray {
+    background-size: cover;
+  }
+}
+
 .screen.red {
   background: url(../img/Game-over.png);
   position: relative;
   z-index: 2;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media(max-width: 867px) {
+  .screen.red {
+    background: none;
+    background-color: black;
+  }
+  .main-text {
+    color: gray;
+  }
 }
 
 .text {

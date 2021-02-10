@@ -27,7 +27,7 @@ export function ScreenBoxView({ status, board, onClickAt }) {
     case Status.Lost:
       return <Board.ScreenView className="red">
         <div style={{ textAlign: "center" }}>
-          <h1>Defeat!</h1>
+          <h1 className="main-text">Defeat!</h1>
           <p className="text">Click anywhere to try again!</p>
         </div>
       </Board.ScreenView>;

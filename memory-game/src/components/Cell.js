@@ -21,18 +21,12 @@ export function View({cell, onClick}) {
   let {status, symbol} = cell
   return <div className={`cell ${classByStatus(status)}`} onClick={onClick} >
     {status === Status.Closed ? ""
-      :
-      <div
-        style={{
-          background: `url(${symbol})`,
-          backgroundSize: "cover",
-          height: "250px",
-          width: "250px",
-          backgroundRepeat: "no-repeat",
-          borderRadius: "5px",
-          boxShadow: "2px 2px 3px white",
-        }}>
-      </div>}
+      : <img
+        src={symbol}
+        alt="Rick n Morty"
+        className="img"
+      ></img>
+      }
   </div>
 }
 
